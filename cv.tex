@@ -23,6 +23,9 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[sfdefault,light]{roboto}  %% Option 'sfdefault' only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+
 
 \name{Leonardo V. Castorina} % Your name
 \begin{document}
@@ -39,9 +42,12 @@
 
 \begin{rSection}{Experience}
 
-\begin{rSubsection}{Osmitau Technologies}{Mar 2019 - Present}{– CEO \& Co-Founder}{Edinburgh (Scotland)}
-\item Developing a hybrid drowsiness detection tool for the automotive industry.
-\item Co-authored a white paper on automotive safety \fontsize{8pt}{12pt}\selectfont\href{https://osmitau.com/solutions.html}{ \faGlobe \ Read Here}
+\begin{rSubsection}{Osmitau Technologies}{Mar 2019 - Jun 2020}{– CEO \& Co-Founder}{Edinburgh (Scotland)}
+\item Developed a machine-learning drowsiness detection tool for the
+automotive industry.
+\item Co-authored a white paper on automotive safety to explore the state of
+the field. \fontsize{8pt}{12pt}\selectfont\href{https://osmitau.com/solutions
+.html}{ \faGlobe \ Read Here}
 \end{rSubsection}
 
 %------------------------------------------------
@@ -81,26 +87,38 @@
 
 \begin{rSection}{Projects}
 
-\begin{rSubsection}{Dissertation: Explainable Deep Learning for {\it de novo} Protein Design (1st Class)}{}{}{}
+\begin{rSubsection}{Dissertation: Explainable Deep Learning for {\it de novo} Protein Design (Currently Publishing)}{}{}{}
 \item Used 3D CNN to predict the identity of the residues required to obtain a protein shape. 
-\item Explored explainability using activation maps and visualized accuracy and precision with Pymol.  
+\item Explored explainability using activation maps and visualized accuracy and precision with Pymol.
+\item Obtained accuracies of up to 40\% and consistently better than alternative methods.
 \end{rSubsection}
 
 
 %------------------------------------------------
 
-\begin{rSubsection}{PredictTheBurgh (Hackathon)}{\fontsize{8pt}{12pt}\selectfont \href
-{https://github.com/universvm/PredictTheBurgh}{ \faGithub \ View on Github}}{}{}
-\item Applied LSTM, GRU and CNN to predict stock prices and exposed flaws in published papers.
+\begin{rSubsection}{Aposteriori - Protein Structures Voxelisation for Deep Learning}{\fontsize{8pt}{12pt}\selectfont \href
+{https://github.com/wells-wood-research/aposteriori}{ \faGithub \ View on Github}}{}{}
+\item Co-created a library for the voxelization of protein structures for protein design from PDB files. 
+\item Implemented parallel processesing, atom encodings, gaussian representations and a CLI.
 \end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Class Representative}{}{}{}
-\item Visualized textual and numerical feedback using Seaborn and Pandas to suggest areas of improvement for the course organizers.
+\begin{rSubsection}{Medical Search Engine (Group Project - Ongoing)}{}{}
+
+\item Indexing a dataset of 100+ GB and optimizing: storage, vectorization and speed to enable researchers to explore medical literature more efficiently
+\item Using NLP machine learning and statistics to classify query to speed up search. 
 \end{rSubsection}
 
 %------------------------------------------------
+
+\begin{rSubsection}{MRI Scan Super-Resolution (Group Project - Ongoing)}{}{}
+
+\item Using Deep Learning methods on PyTorch to upsample low-res scans from the NHS to improve and speed up diagnosis.
+\end{rSubsection}
+
+%------------------------------------------------
+
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -109,24 +127,19 @@
 
 \begin{rSection}{Education}
 
-{\bf The University of Edinburgh} \hfill {\em Sep 2020 - Present} \\ 
-MScR. Biomedical Artificial Intelligence \\
-
-{\bf The University of Edinburgh} \hfill {\em Sep 2016 - May 2020} \\ 
-BSc. (Hons) Biochemistry \\
-
+\begin{rSubsection}{\bf The University of Edinburgh} \hfill {\em} \\ 
+\item MScR. Biomedical Artificial Intelligence (1st Class)\hfill {Sep 2020
+\em - Present}
+\item BSc. (Hons) Biochemistry (2.1 Class) \hfill {Sep 2016 - May 2020}
+\end{rSubsection}
 \end{rSection}
 %----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Skills}
+\begin{rSection}{Patents \& Publications}
 
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l }
-Programming & Python, JavaScript, CSS \& HTML \\
-Tech & TensorFlow, Keras, Sci-Kit Learn, NumPy, Pandas, Seaborn, Jupyter, Docker, Git \\
-Software & Adobe Photoshop, Adobe Illustrator, Sketch
-\end{tabular}
+\textbf{Castorina, L. V.}, (2021). \textit{Patent Filed with IBM}. Patent Pending.
 
 \end{rSection}
 
@@ -134,10 +147,10 @@ Software & Adobe Photoshop, Adobe Illustrator, Sketch
 %	Languages SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Languages}
+%\begin{rSection}{Languages}
 
-English (Fluent), Italian (Fluent), French (DELFB2) 
-\end{rSection}
+%English (Fluent), Italian (Fluent), French (DELFB2) 
+%\end{rSection}
 
 \fontsize{8pt}{12pt}\selectfont
 \begin{flushright}
