@@ -1,8 +1,8 @@
 Hi! This is my *full* CV. 
 
-Usually I adapt it to the position I am applying for with more focused details.
+I usually tailor it to the position I’m applying for, adding more focused details.
 
-If you have a position that might interest me or want to chat, feel free to reach out! 
+If you have a position that might interest me or would like to chat, feel free to reach out!
 
 # CV
 
